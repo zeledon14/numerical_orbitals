@@ -1,0 +1,5 @@
+#!/bin/sh
+
+/usr/bin/invoke_app "$@" -C "start_jupyter -t -T @tool Helium_DFT-LDA.ipynb" \
+                         -t dftldahelium \
+                         -u anaconda3-5.1
